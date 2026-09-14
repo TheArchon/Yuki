@@ -45,3 +45,7 @@ DEFAULT_TAG_SPEED = 3
 MIN_TAG_SPEED = 1
 MAX_TAG_SPEED = 10
 SPEED_PRESETS = {"turbo": 1, "fast": 2, "normal": 3, "slow": 5}
+
+# AI Profile Guard
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+PROFILE_GUARD_MODEL = os.getenv("PROFILE_GUARD_MODEL", "omni-moderation-latest")
